@@ -1,0 +1,91 @@
+{
+  "specFile": "/Users/debasishdutta/.vscode/extensions/ms-toolsai.jupyter-2022.4.1021342353/temp/jupyter/kernels/python3916jvsc74a57bd0a665b5d41d17b532ea9890333293a1b812fa0b73c9c25c950b3cedf1bebd0438/kernel.json",
+  "interpreterPath": "/opt/homebrew/bin/python3.9",
+  "isRegisteredByVSC": "registeredByNewVersionOfExt",
+  "name": "python3916jvsc74a57bd0a665b5d41d17b532ea9890333293a1b812fa0b73c9c25c950b3cedf1bebd0438",
+  "argv": [
+    "/opt/homebrew/bin/python3.9",
+    "-m",
+    "ipykernel_launcher",
+    "-f",
+    "{connection_file}"
+  ],
+  "language": "python",
+  "executable": "python",
+  "display_name": "Python 3.9.16 64-bit",
+  "metadata": {
+    "interpreter": {
+      "id": "/opt/homebrew/bin/python3.9",
+      "sysPrefix": "/opt/homebrew/opt/python@3.9/Frameworks/Python.framework/Versions/3.9",
+      "envType": "Global",
+      "envName": "",
+      "architecture": 3,
+      "sysVersion": "3.9.16 (main, Dec  7 2022, 10:06:04) \n[Clang 14.0.0 (clang-1400.0.29.202)]",
+      "version": {
+        "raw": "3.9.16",
+        "major": 3,
+        "minor": 9,
+        "patch": 16,
+        "build": [],
+        "prerelease": [
+          "final",
+          "0"
+        ]
+      },
+      "displayName": "Python 3.9.16 64-bit",
+      "detailedDisplayName": "Python 3.9.16 64-bit",
+      "uri": {
+        "$mid": 1,
+        "fsPath": "/opt/homebrew/bin/python3.9",
+        "external": "file:///opt/homebrew/bin/python3.9",
+        "path": "/opt/homebrew/bin/python3.9",
+        "scheme": "file"
+      }
+    }
+  },
+  "env": {
+    "ELECTRON_RUN_AS_NODE": "1",
+    "USER": "debasishdutta",
+    "COMMAND_MODE": "unix2003",
+    "__CFBundleIdentifier": "com.microsoft.VSCode",
+    "PATH": "/opt/homebrew/bin:/opt/homebrew/bin:/opt/homebrew/bin:/opt/homebrew/bin:/opt/homebrew/bin:/opt/homebrew/bin:/opt/homebrew/bin:/opt/homebrew/bin:/opt/homebrew/bin:/Users/debasishdutta/My Programming Stuffs/Compiler_des/dd_compiler/bin:/usr/local/mongodb/bin:/opt/homebrew/opt/findutils/libexec/gnubin:/opt/homebrew/opt/gnu-getopt/bin:/opt/homebrew/opt/findutils/libexec/gnubin:/opt/homebrew/opt/gnu-getopt/bin:/opt/homebrew/opt/findutils/libexec/gnubin:/opt/homebrew/opt/gnu-getopt/bin:/opt/homebrew/opt/findutils/libexec/gnubin:/opt/homebrew/opt/gnu-getopt/bin:/opt/homebrew/opt/findutils/libexec/gnubin:/opt/homebrew/opt/gnu-getopt/bin:/opt/homebrew/opt/findutils/libexec/gnubin:/opt/homebrew/opt/gnu-getopt/bin:/opt/homebrew/opt/findutils/libexec/gnubin:/opt/homebrew/opt/gnu-getopt/bin:/opt/homebrew/opt/gnu-getopt/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/go/bin:/usr/local/share/dotnet:/opt/X11/bin:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/debasishdutta/.cargo/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin",
+    "LOGNAME": "debasishdutta",
+    "DISPLAY": "/private/tmp/com.apple.launchd.gEuboHHxOz/org.xquartz:0",
+    "SSH_AUTH_SOCK": "/private/tmp/com.apple.launchd.HORBWol8Vu/Listeners",
+    "HOME": "/Users/debasishdutta",
+    "SHELL": "/bin/zsh",
+    "TMPDIR": "/var/folders/p0/b8fx9zgs3kj3xyv21r3tv6y80000gn/T/",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0",
+    "XPC_SERVICE_NAME": "application.com.microsoft.VSCode.151967.151974",
+    "XPC_FLAGS": "0x0",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "VSCODE_CWD": "/",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"en-gb\",\"availableLanguages\":{},\"_languagePackSupport\":true}",
+    "VSCODE_CODE_CACHE_PATH": "/Users/debasishdutta/Library/Application Support/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5",
+    "VSCODE_IPC_HOOK": "/Users/debasishdutta/Library/Application Support/Code/1.67.2-main.sock",
+    "VSCODE_PID": "3212",
+    "SHLVL": "0",
+    "PWD": "/",
+    "OLDPWD": "/",
+    "HOMEBREW_PREFIX": "/opt/homebrew",
+    "HOMEBREW_CELLAR": "/opt/homebrew/Cellar",
+    "HOMEBREW_REPOSITORY": "/opt/homebrew",
+    "MANPATH": "/opt/homebrew/share/man::",
+    "INFOPATH": "/opt/homebrew/share/info:",
+    "ZSH": "/Users/debasishdutta/.oh-my-zsh",
+    "PAGER": "less",
+    "LESS": "-R",
+    "LSCOLORS": "Gxfxcxdxbxegedabagacad",
+    "P9K_SSH": "0",
+    "FLAGS_GETOPT_CMD": "/opt/homebrew/opt/gnu-getopt/bin/getopt",
+    "_": "/private/var/folders/p0/b8fx9zgs3kj3xyv21r3tv6y80000gn/T/AppTranslocation/2A800240-58D6-441E-ABED-C3550929AA10/d/Visual Studio Code.app/Contents/MacOS/Electron",
+    "VSCODE_AMD_ENTRYPOINT": "vs/workbench/api/node/extensionHostProcess",
+    "VSCODE_PIPE_LOGGING": "true",
+    "VSCODE_VERBOSE_LOGGING": "true",
+    "VSCODE_LOG_NATIVE": "false",
+    "VSCODE_IPC_HOOK_EXTHOST": "/var/folders/p0/b8fx9zgs3kj3xyv21r3tv6y80000gn/T/vscode-ipc-0c03ea4e-d095-4fd6-9f10-d78ecb6a948e.sock",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "VSCODE_LOG_STACK": "false",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "1"
+  }
+}

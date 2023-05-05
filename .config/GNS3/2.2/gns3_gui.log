@@ -1,0 +1,27 @@
+2023-04-06 12:41:00 INFO logger.py:126 Log level: INFO
+2023-04-06 12:41:00 INFO main.py:263 GNS3 GUI version 2.2.38
+2023-04-06 12:41:00 INFO main.py:264 Copyright (c) 2007-2023 GNS3 Technologies Inc.
+2023-04-06 12:41:00 INFO main.py:265 Application started with /Applications/GNS3.app/Contents/MacOS/gns3
+2023-04-06 12:41:05 INFO sudo.py:54 Execute as admin: osascript -e do shell script "chown root:admin /Applications/GNS3.app/Contents/MacOS/ubridge && chmod 4750 /Applications/GNS3.app/Contents/MacOS/ubridge" with administrator privileges
+2023-04-06 12:41:08 CRITICAL progress_dialog.py:181 WaitForCommandWorker thread stopping with an error: Could not execute command "osascript -e 'do shell script "chown root:admin /Applications/GNS3.app/Contents/MacOS/ubridge && chmod 4750 /Applications/GNS3.app/Contents/MacOS/ubridge" with administrator privileges'": Command '['osascript', '-e', 'do shell script "chown root:admin /Applications/GNS3.app/Contents/MacOS/ubridge && chmod 4750 /Applications/GNS3.app/Contents/MacOS/ubridge" with administrator privileges']' returned non-zero exit status 1.
+2023-04-06 12:41:08 CRITICAL __init__.py:183 Could not execute command "osascript -e 'do shell script "chown root:admin /Applications/GNS3.app/Contents/MacOS/ubridge && chmod 4750 /Applications/GNS3.app/Contents/MacOS/ubridge" with administrator privileges'": Command '['osascript', '-e', 'do shell script "chown root:admin /Applications/GNS3.app/Contents/MacOS/ubridge && chmod 4750 /Applications/GNS3.app/Contents/MacOS/ubridge" with administrator privileges']' returned non-zero exit status 1.
+2023-04-06 12:41:33 ERROR project.py:722 Dynamips hypervisor process has stopped, return code: -11
+C2600 'Ghost': generic_nvram_extract_config: Unknown error: -61605
+
+2023-04-06 12:41:47 ERROR http_client.py:702 uBridge requires root access or the capability to interact with Ethernet and TAP adapters
+2023-04-06 12:50:00 CRITICAL __init__.py:1064 This node has no working directory
+2023-04-06 12:57:35 WARNING __init__.py:1206 This node must be started before a console can be opened
+2023-04-06 12:57:49 CRITICAL __init__.py:445 A link is connected to port FastEthernet1/0 on adapter NM-16ESW, please remove it first
+2023-04-06 12:57:57 ERROR link.py:338 Error while deleting link: Could not send Dynamips command 'vm get_status "R1"' to 127.0.0.1:50231: [Errno 32] Broken pipe, process running: False
+2023-04-06 12:58:02 ERROR link.py:338 Error while deleting link: Link ID 62c954c7-337e-4b64-9566-2adab2ba3e54 doesn't exist
+2023-04-06 12:58:03 ERROR link.py:338 Error while deleting link: Link ID 62c954c7-337e-4b64-9566-2adab2ba3e54 doesn't exist
+2023-04-06 12:58:07 ERROR link.py:338 Error while deleting link: Link ID 62c954c7-337e-4b64-9566-2adab2ba3e54 doesn't exist
+2023-04-06 12:58:13 ERROR link.py:338 Error while deleting link: Link ID 62c954c7-337e-4b64-9566-2adab2ba3e54 doesn't exist
+2023-04-06 12:58:54 ERROR link.py:338 Error while deleting link: Could not send Dynamips command 'vm get_status "R1"' to 127.0.0.1:50231: [Errno 32] Broken pipe, process running: False
+2023-04-06 12:59:24 ERROR http_client.py:702 Could not send Dynamips command 'vm set_ghost_status "R1" 2' to 127.0.0.1:50231: [Errno 32] Broken pipe, process running: False
+2023-04-06 13:05:02 INFO appliance_wizard.py:238 Image '/Users/debasishdutta/Downloads/Cisco 7200 152-4.S6/c7200-adventerprisek9-mz.152-4.S6.image' has been successfully uploaded
+2023-04-06 13:05:40 INFO appliance_wizard.py:238 Image '/Users/debasishdutta/Downloads/Cisco 7200 152-4.S6/c7200-adventerprisek9-mz.152-4.S6.image' has been successfully uploaded
+2023-04-06 13:08:31 INFO appliance_wizard.py:238 Image '/Users/debasishdutta/Downloads/Cisco 7200 153-3.XB12/c7200-adventerprisek9-mz.153-3.XB12.image' has been successfully uploaded
+2023-04-06 13:09:31 ERROR link.py:338 Error while deleting link: Link ID 3d7a7f95-2dcf-4dc1-b705-b24a8fed2b8b doesn't exist
+2023-04-06 13:09:34 ERROR link.py:338 Error while deleting link: Link ID 62c954c7-337e-4b64-9566-2adab2ba3e54 doesn't exist
+2023-04-06 13:09:50 ERROR link.py:338 Error while deleting link: Link ID 3d7a7f95-2dcf-4dc1-b705-b24a8fed2b8b doesn't exist

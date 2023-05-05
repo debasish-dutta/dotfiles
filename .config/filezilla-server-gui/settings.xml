@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<filezilla xmlns:fz="https://filezilla-project.org/" xmlns="https://filezilla-project.org/" fz:product_flavour="standard" fz:product_version="1.5.1">
+	<!--Information about the FileZilla FTP servers to connect to.-->
+	<server>
+		<name>localhost:14148</name>
+		<host>localhost</host>
+		<port>14148</port>
+		<password></password>
+		<fingerprint>0b:a5:f0:6d:09:da:9e:ec:5f:9d:79:39:c7:c1:1e:f5:84:61:18:7b:9c:84:03:05:e6:95:28:ea:01:0a:d6:16</fingerprint>
+	</server>
+	<server>
+		<name>192.168.1.10:14148</name>
+		<host>192.168.1.10</host>
+		<port>14148</port>
+		<password></password>
+		<fingerprint></fingerprint>
+	</server>
+	<autoconnect_to_server></autoconnect_to_server>
+	<last_connected_server>localhost:14148</last_connected_server>
+	<!--Logging options-->
+	<logger>
+		<!--The name of the log file. If empty, the log goes to stderr.-->
+		<name></name>
+		<!--The maximum number of files to be used for the log rotation. Default is 0, meaning no rotation happens.-->
+		<max_amount_of_rotated_files>0</max_amount_of_rotated_files>
+		<!--The maximum size each log file can reach before being closed and a new one being opened. Only meaningful if max_amount_of_rotated_files > 0.-->
+		<max_file_size>9223372036854775807</max_file_size>
+		<!--Which types of logs must be enabled. Defaults to error|status|reply|command . See <libfilezilla/logger.hpp> for the values of the various types.-->
+		<enabled_types>15</enabled_types>
+		<!--Criteria used to rotate files. Currently: size-based (0) or daily rotation (1).-->
+		<rotation_type>0</rotation_type>
+		<!--Include headers for each line of logging (date&time and possibly others). Set it to false if you have your own way of tagging log lines. Default is true.-->
+		<include_headers>true</include_headers>
+	</logger>
+	<!--The GUI's locale. By default, the one defined by the appropriate environment variables is used.-->
+	<locale></locale>
+	<!--True if the UI window has to be started in minimized mode, false otherwise.-->
+	<start_minimized>false</start_minimized>
+	<!--Tray icon mode: one of 0 (disabled), 1 (enabled), 2 (enabled, minimize to tray).-->
+	<tray_icon_mode>1</tray_icon_mode>
+</filezilla>
