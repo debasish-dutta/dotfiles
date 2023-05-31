@@ -141,3 +141,4 @@ export PATH="$(brew --prefix)/opt/findutils/libexec/gnubin:$PATH"
 export PATH="/usr/local/mongodb/bin:$PATH"
 export PATH="/Users/debasishdutta/My Programming Stuffs/Compiler_des/dd_compiler/bin:$PATH"
 export PATH="/usr/local/texlive/2021/bin/universal-darwin:$PATH"
+alias vim=nvim
