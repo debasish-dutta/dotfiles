@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<FileZilla3 version="3.60.1" platform="mac">
+	<Layout Builddate="2022-06-01" Buildtime="16:03:29">
+		<Resources>
+			<xrc file="netconfwizard.xrc" date="1654092296" />
+			<xrc file="dialogs.xrc" date="1654092296" />
+		</Resources>
+		<Language id="default">
+			<Font font="0;13;70;90;90;0;.AppleSystemUIFont;49" width="779" height="15" />
+			<Dialog name="Update" width="753" />
+			<Dialog name="Settings" width="537" />
+		</Language>
+	</Layout>
+</FileZilla3>
