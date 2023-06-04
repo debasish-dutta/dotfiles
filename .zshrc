@@ -84,6 +84,10 @@ plugins=(
 	macos
 	zsh-interactive-cd
 	wakatime
+  common-aliases
+  gitignore
+  tmux
+  web-search
 	)
 
 source $ZSH/oh-my-zsh.sh
